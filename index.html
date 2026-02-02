@@ -1,0 +1,371 @@
+<!-- ==========================================
+     PORTFOLIO WEBSITE - PRAVEEN SHARMA
+     Easy to understand and modify!
+    ========================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ==========================================
+       PAGE INFORMATION & SETTINGS
+      ========================================== -->
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praveen Sharma - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ==========================================
+       HEADER & NAVIGATION
+      ========================================== -->
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Logo & Brand Name -->
+      <a class="brand" href="#">
+        <img src="assets/images/avatar.jpg" alt="Logo" class="logo">
+        <span class="brand-text">PRAVEEN SHARMA</span>
+      </a>
+
+      <!-- Hamburger Menu Button (shown on mobile) -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav" id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN CONTENT
+      ========================================== -->
+  
+  <main>
+    <!-- ==========================================
+         HERO SECTION
+        ========================================== -->
+    
+    <section id="hero" class="hero-section scene">
+      <!-- Background Image -->
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/images/hero-bg.svg" alt="">
+      </div>
+
+      <div class="container hero-inner">
+        <!-- Hero Text Content -->
+        <div class="hero-content" data-3d>
+          <h1 class="reveal">B.Tech CSE Student (AI &amp; ML) <br><span class="accent">Front-End Developer</span></h1>
+          <p class="lead reveal">Enthusiastic and disciplined B.Tech CSE student specializing in AI &amp; ML, committed to continuous learning and leveraging emerging technologies to solve real-world problems.</p>
+          
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta">
+            <a href="#projects" class="btn primary hoverable">View Projects</a>
+            <a href="#contact" class="btn glass hoverable">Hire Me</a>
+          </div>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="hero-visual" data-3d>
+          <img src="assets/images/avatar.jpg" alt="Avatar" class="avatar reveal">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         ABOUT SECTION
+        ========================================== -->
+    
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <!-- About Text -->
+          <article class="glass-card floating reveal" data-tilt>
+            <h3>I'm PRAVEEN SHARMA — B.Tech CSE Student (AI &amp; ML)</h3>
+            <p>Enthusiastic and disciplined B.Tech CSE student specializing in AI &amp; ML, committed to continuous learning and leveraging emerging technologies to solve real-world problems.</p>
+            <ul class="meta">
+              <li>Location: Koiran Chamav Tarna, Post Shivpur, Varanasi</li>
+              <li>Contact: +91 6393605080</li>
+            </ul>
+          </article>
+
+          <!-- About Stats -->
+          <div class="about-stats reveal">
+            <div class="stat">
+              <h4>Ashoka Institute of Technology and Management Varanasi</h4>
+              <p>B.Tech CSE (AI &amp; ML) — Pursuing</p>
+            </div>
+            <div class="stat">
+              <h4>Vikas Intermediate College Paramanandpur, Varanasi</h4>
+              <p>12th &amp; 10th (UP Board)</p>
+            </div>
+            <div class="stat">
+              <h4>Projects</h4>
+              <p>Age Calculator, FitScout, Tour Bharat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SKILLS SECTION
+        ========================================== -->
+    
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <!-- HTML Skill -->
+          <div class="skill-card glass reveal" data-tilt>
+            <img src="assets/images/html-logo.svg" alt="HTML" class="skill-logo">
+            <h3>HTML</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--progress:90%"></div>
+            </div>
+          </div>
+
+          <!-- CSS Skill -->
+          <div class="skill-card glass reveal" data-tilt>
+            <img src="assets/images/css-logo.svg" alt="CSS" class="skill-logo">
+            <h3>CSS</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--progress:70%"></div>
+            </div>
+          </div>
+
+          <!-- JavaScript Skill -->
+          <div class="skill-card glass reveal" data-tilt>
+            <img src="assets/images/js-logo.svg" alt="JavaScript" class="skill-logo">
+            <h3>JavaScript</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--progress:50%"></div>
+            </div>
+          </div>
+
+          <!-- C Language Skill -->
+          <div class="skill-card glass reveal" data-tilt>
+            <img src="assets/images/c-logo.svg" alt="C Language" class="skill-logo">
+            <h3>C Language</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--progress:60%"></div>
+            </div>
+          </div>
+
+          <!-- Python Skill -->
+          <div class="skill-card glass reveal" data-tilt>
+            <img src="assets/images/python-logo.svg" alt="Python" class="skill-logo">
+            <h3>Python</h3>
+            <div class="progress">
+              <div class="progress-bar" style="--progress:45%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PROJECTS SECTION
+        ========================================== -->
+    
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2 class="section-title reveal">Selected Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1: Tour Bharat -->
+          <article class="project-card glass hoverable reveal" data-tilt>
+            <img src="assets/images/project1.png" alt="Tour Bharat">
+            <div class="project-info">
+              <h3>Tour Bharat (Bharat Bhraman)</h3>
+              <p>Responsive travel website with destinations and services.</p>
+              <a href="https://praveen-7-7.github.io/BharatBhraman/" class="link" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </article>
+
+          <!-- Project 2: FitScout -->
+          <article class="project-card glass hoverable reveal" data-tilt>
+            <img src="assets/images/project2.png" alt="FitScout">
+            <div class="project-info">
+              <h3>FitScout</h3>
+              <p>Fitness tracker web app with goals and progress tracking.</p>
+              <a href="https://praveen-7-7.github.io/FitScout/" class="link" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Age Calculator -->
+          <article class="project-card glass hoverable reveal" data-tilt>
+            <img src="assets/images/project3.png" alt="Age Calculator">
+            <div class="project-info">
+              <h3>Age Calculator</h3>
+              <p>Exact age calculation using HTML, CSS, JavaScript.</p>
+              <a href="https://praveen-7-7.github.io/codealpha/" class="link" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         EXPERIENCE & EDUCATION SECTION
+        ========================================== -->
+    
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <h2 class="section-title reveal">Experience &amp; Education</h2>
+        <div class="timeline reveal">
+          <!-- Education: B.Tech -->
+          <div class="timeline-item">
+            <time>Pursuing</time>
+            <div class="timeline-body glass">
+              <h3>Ashoka Institute of Technology and Management, Varanasi</h3>
+              <p>B.Tech CSE (AI &amp; ML) – Pursuing</p>
+            </div>
+          </div>
+
+          <!-- Education: 12th -->
+          <div class="timeline-item">
+            <time>2023</time>
+            <div class="timeline-body glass">
+              <h3>Vikas Intermediate College, Permanandpur, Varanasi</h3>
+              <p>12th – UP Board (2023)</p>
+            </div>
+          </div>
+
+          <!-- Education: 10th -->
+          <div class="timeline-item">
+            <time>2021</time>
+            <div class="timeline-body glass">
+              <h3>Vikas Intermediate College, Permanandpur, Varanasi</h3>
+              <p>10th – UP Board (2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CERTIFICATES SECTION
+        ========================================== -->
+    
+    <section id="certificates" class="section certificates-section">
+      <div class="container">
+        <h2 class="section-title reveal">Certificates &amp; Achievements</h2>
+        <div class="certs-grid">
+          <!-- Certificate 1: Python Project -->
+          <div class="cert-card glass reveal" data-cert="assets/images/python1.png">
+            <img src="assets/images/python1.png" alt="Python Project Certificate" class="cert-image">
+            <h4>Python Project – LUEPESDMAR124867</h4>
+          </div>
+
+          <!-- Certificate 2: HTML & CSS -->
+          <div class="cert-card glass reveal" data-cert="assets/images/html.png">
+            <img src="assets/images/html.png" alt="HTML &amp; CSS Certificate" class="cert-image">
+            <h4>HTML &amp; CSS – LUEHTMLFEB1242394</h4>
+          </div>
+
+          <!-- Certificate 3: CSS Bootcamp -->
+          <div class="cert-card glass reveal" data-cert="assets/images/css.png">
+            <img src="assets/images/css.png" alt="CSS Bootcamp Certificate" class="cert-image">
+            <h4>CSS Bootcamp – LUECSSAPR124668</h4>
+          </div>
+
+          <!-- Certificate 4: Oracle Foundation -->
+          <div class="cert-card glass reveal" data-cert="assets/images/oracle.png">
+            <img src="assets/images/oracle.png" alt="Oracle Foundation Certificate" class="cert-image">
+            <h4>Oracle Foundation Associate – OCI AI Foundations (ID: 323448801OCI25AICFA)</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CERTIFICATE MODAL (Popup for viewing certificates)
+        ========================================== -->
+    
+    <div id="cert-modal" class="cert-modal" aria-label="Certificate viewer" role="dialog" aria-hidden="true">
+      <div class="cert-modal-content">
+        <button class="cert-modal-close" id="cert-modal-close" aria-label="Close modal">×</button>
+        <img id="cert-modal-image" src="" alt="Certificate" class="cert-modal-image">
+      </div>
+    </div>
+
+    <!-- ==========================================
+         CONTACT SECTION
+        ========================================== -->
+    
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <form class="contact-form glass reveal" action="#" method="post" novalidate>
+            <!-- Name Field -->
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <!-- Email Field -->
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="your email" required>
+
+            <!-- Message Field -->
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project"></textarea>
+
+            <!-- Submit Button -->
+            <div class="form-actions">
+              <button type="submit" class="btn primary hoverable">Send Message</button>
+            </div>
+          </form>
+
+          <!-- Contact Information -->
+          <aside class="contact-info reveal">
+            <h3>Contact</h3>
+            <p>Phone: <a href="tel:+916393605080">+91 6393605080</a><br>
+            Email: <a href="mailto:praveensharma6393@gmail.com">praveensharma6393@gmail.com</a><br>
+            Location: Koiran Chamav Tarna, Post Shivpur, Varanasi</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+      ========================================== -->
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 PRAVEEN SHARMA — B.Tech CSE (AI &amp; ML) | Front-End Developer</p>
+      
+      <!-- Social Links -->
+      <nav class="footer-links">
+        <a href="https://linkedin.com/in/praveen-sharma" target="_blank" rel="noopener" class="social-link">
+          <img src="assets/images/linkedin-logo.svg" alt="LinkedIn" class="social-logo">
+          LinkedIn
+        </a>
+        <a href="https://github.com/praveen-7-7" target="_blank" rel="noopener" class="social-link">
+          <img src="assets/images/github-logo.svg" alt="GitHub" class="social-logo">
+          GitHub
+        </a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       SCRIPTS
+      ========================================== -->
+  
+  <script src="js/script.js" defer></script>
+</body>
+</html>
